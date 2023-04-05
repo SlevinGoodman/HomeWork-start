@@ -1,0 +1,16 @@
+p {
+    color: purple !important;
+    font-size: 70px;
+}
+p#test {
+    color: blue;
+}
+#test {
+    color: yellow;
+}
+.test {
+    color: orange;
+}
+p {
+    color: red;
+}
