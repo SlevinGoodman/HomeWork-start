@@ -1,0 +1,18 @@
+h1 {
+    /*по ДЗ*/
+    font-size: 3rem;
+    line-height: 200%;
+    /*эксперименты для себя*/
+    color: rgb(189, 15, 241);
+    font-weight: 900;
+    letter-spacing: 1.1rem;
+    text-indent: 25px;
+}
+p {
+    font-size: 1.7em;
+    white-space: pre-line;
+    color: rgb(59, 25, 59);
+    line-height: 2rem;
+    font-weight: 400;
+}
+
