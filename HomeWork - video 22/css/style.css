@@ -1,0 +1,29 @@
+
+.test__css p {
+/*============HW=================*/
+    padding: 25px 25px 0 25px;
+    max-width: 50vw;
+    max-height: 50vh;
+    height: 100px;
+    overflow: auto;
+
+/*============Для души=================*/
+    font-size: 1.5em;
+    font-style: italic;
+    white-space: pre-line;
+    color: rgb(59, 25, 59);
+    line-height: 1.7rem;
+    font-weight: 400;
+    background-color: #e4e6f1;
+    border:   solid #000000;
+}
+
+.test__css h1 {
+    font-size: 3rem;
+    font-style: italic;
+    line-height: 200%;
+    color: rgb(42, 25, 121);
+    font-weight: 900;
+    text-indent: 25px;
+    
+}
