@@ -1,0 +1,32 @@
+.wrapper {
+    display: inline-flex;
+}
+.block1 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 10%;
+    /*HOMEWORK*/
+    border: 5px solid black;
+    transition: 3s 2s;
+}
+.block1:hover {
+    border-color:green;
+}
+.block2 {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    position: relative;
+    top: 100px;
+    left: 30%;
+    /*HOMEWORK*/
+border: 5px solid black;
+    transition-duration: 3s;
+    transition-delay: 2s;
+}
+.block2:hover {
+    border-color: red;
+}

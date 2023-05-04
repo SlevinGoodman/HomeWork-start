@@ -1,0 +1,12 @@
+.text {
+    font-size: 20px;
+    animation: text-color 3s infinite alternate;
+}
+@keyframes text-color {
+    0% {
+        color: red;
+    }
+    100% {
+        color: black;
+    }
+}
