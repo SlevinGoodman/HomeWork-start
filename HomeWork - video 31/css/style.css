@@ -1,0 +1,31 @@
+.wrapper {
+    display: inline-block;
+    border: 1px solid black; 
+    margin: 50px;
+    font-size: 50px;
+    background-color: #efcb3d;
+}
+.title {
+    position: relative;
+    margin: 50px;
+}
+.title::before {
+    content: "";
+    position: absolute;
+    top: calc(50%);
+    left: -25px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: blue;
+}
+.title::after {
+    content: "";
+    position: absolute;
+    top: calc(50%);
+    right: -25px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+}
